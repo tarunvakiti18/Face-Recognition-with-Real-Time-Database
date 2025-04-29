@@ -51,19 +51,6 @@ Generate a private key and download serviceAccountKey.json
 Place it in your project root directory
 
 🖼️ Add User Images
-Organize images as follows:
-images/
-├── Alice/
-
-│   ├── 1.jpg
-
-│   └── 2.jpg
-
-└── Bob/
-
-|    ├── 1.jpg
-    
-|   └── 2.jpg
 Each folder name represents a user, and files are their face images.
 
 🧪 Running the Project
@@ -85,14 +72,3 @@ Improve security if deploying this in production.
 
 🤝 Contributing
 Feel free to fork and submit pull requests to improve the project.
-
-📄 License
-MIT License
-
-📬 Contact
-Created by tarunvakiti18
-
-
-Let me know if you'd like a badge header, project logo, or visual section added to this.
-
-
