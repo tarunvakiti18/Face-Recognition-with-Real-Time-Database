@@ -28,14 +28,15 @@ This project implements a real-time face recognition system using Python, OpenCV
 ### 1. Clone the Repository
 git clone https://github.com/tarunvakiti18/Face-Recognition-with-Real-Time-Database.git
 cd Face-Recognition-with-Real-Time-Database
-2. Set Up a Virtual Environment
+
+### 2. Set Up a Virtual Environment
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 Make sure your requirements.txt includes OpenCV, face_recognition, firebase-admin, etc.
 
-4. Set Up Firebase
+### 4. Set Up Firebase
 Create a Firebase project at Firebase Console
 
 Navigate to Project Settings > Service Accounts
@@ -44,25 +45,22 @@ Generate a private key and download serviceAccountKey.json
 
 Place it in your project root directory
 
-🖼️ Add User Images
+## 🖼️ Add User Images
 Each folder name represents a user, and files are their face images.
 
-🧪 Running the Project
+## 🧪 Running the Project
 Step 1: Generate Encodings
-bash
-Copy
-Edit
 python EncodeGenerator.py
 Step 2: Start Real-Time Recognition
 python main.py
 The webcam will activate, and attendance will be logged into Firebase in real-time.
 
-📌 Notes
+## 📌 Notes
 Ensure internet connectivity for Firebase.
 
 Use clear, front-facing images for accuracy.
 
 Improve security if deploying this in production.
 
-🤝 Contributing
+## 🤝 Contributing
 Feel free to fork and submit pull requests to improve the project.
