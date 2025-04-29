@@ -52,14 +52,18 @@ Place it in your project root directory
 
 🖼️ Add User Images
 Organize images as follows:
-
 images/
 ├── Alice/
+
 │   ├── 1.jpg
+
 │   └── 2.jpg
+
 └── Bob/
-    ├── 1.jpg
-    └── 2.jpg
+
+|    ├── 1.jpg
+    
+|   └── 2.jpg
 Each folder name represents a user, and files are their face images.
 
 🧪 Running the Project
