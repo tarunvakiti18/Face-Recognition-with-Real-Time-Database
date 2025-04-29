@@ -23,19 +23,6 @@ This project implements a real-time face recognition system using Python, OpenCV
 
 ---
 
-## 📁 Project Structure
-
-Face-Recognition-with-Real-Time-Database/ 
-├── AddDatatoDatabase.py # Adds user data to Firebase
-├── EncodeFile.p # Stored face encodings 
-├── EncodeGenerator.py # Creates face encodings 
-├── main.py # Main real-time face recognition script 
-├── serviceAccountKey.json # Firebase credentials 
-├── images/ # Directory with user face images 
-└── tempCodeRunnerFile.py # Temp script file
-
----
-
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repository
